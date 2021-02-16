@@ -1,0 +1,291 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Info */
+
+.info {
+    padding-top: 8px;
+    height: 40px;
+    background-color: #003452;
+    transition: 300ms;
+}
+
+.info:hover {
+    background-color: #02293f;
+    transition: 300ms;
+}
+
+.info a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+
+
+/* Banner */
+
+.banner {
+    position: relative;
+    color: #004269;
+    background-color: #F5F6F8;
+    padding-top: 50px;
+    padding-bottom: 200px;
+    background-image: url(/assets/img/union.png);
+    background-repeat: no-repeat;
+    background-size: 620px;
+    background-position: 0px 250px;
+}
+
+.card-menu {
+    position: relative;
+    color: black;
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 0.5em;
+    bottom: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+.img-gif-1 {
+    position: absolute;
+    width: 100px;
+    right: 200px;
+    top: 150px;
+    z-index: 9;
+    transform: rotate(80deg);
+}
+
+.img-gif-2 {
+    position: absolute;
+    width: 100px;
+    right: 200px;
+    top: 80px;
+    z-index: 9;
+    transform: rotate(-80deg);
+}
+
+.img-banner {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    z-index: 0;
+    width: 350px;
+}
+
+.banner h2 {
+    position: relative;
+    font-weight: 600;
+    font-size: 40px;
+    z-index: 5;
+}
+
+.banner h6 {
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-size: 16px;
+    z-index: 5;
+}
+
+.banner p {
+    position: relative;
+    margin: 5px 0px;
+    font-size: 14px;
+}
+
+
+/* Benefit */
+
+.benefit {
+    background-image: url("/assets/banner/bg-sec-2.png");
+}
+
+.benefit img {
+    width: 150px;
+}
+
+.benefit .item {
+    margin: 5px 5px;
+}
+
+.benefit p {
+    font-size: 14px;
+}
+
+.benefit b {
+    font-weight: 600;
+}
+
+.benefit h2 {
+    font-size: 40px;
+    color: white;
+}
+
+.benefitAgain ul {
+    margin-left: -50px;
+    list-style-type: none;
+}
+
+
+/* Un Employment */
+
+.unemployment {
+    background-color: #002f41!important;
+    color: white;
+}
+
+.unemployment,
+.solution,
+.prodi,
+.facility,
+.testimony,
+.benefit,
+.benefitAgain {
+    padding: 30px 0px;
+}
+
+.callToAction {
+    padding: 10px 0px;
+}
+
+,
+.solution,
+.callToAction {
+    background-color: #ffffff;
+}
+
+.prodi,
+.testimony {
+    background-color: #F5F6F8;
+}
+
+
+/* Call to Action */
+
+
+/* Prodi */
+
+.prodi {
+    background-color: #002f41!important;
+}
+
+.title-prodi {
+    font-size: 18px;
+}
+
+.degree {
+    font-weight: 600;
+}
+
+.degree,
+.concentration {
+    font-size: 15px;
+}
+
+
+/* Testimony */
+
+.testimony .testimony-name {
+    font-weight: 700;
+}
+
+.testimony .testimony-prodi {
+    margin: 0px 0px;
+}
+
+.testimony-school {
+    font-size: 14px;
+}
+
+mark {
+    padding: 1px;
+    background-color: #00ffff;
+}
+
+.paragraph {
+    text-align: left;
+}
+
+.btn-success {
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+}
+
+.btn-success:hover {
+    color: #132039;
+}
+
+.best {
+    padding: 20px 0px;
+    background-color: #F5F6F8;
+    position: relative;
+    z-index: 1;
+}
+
+
+/* Best */
+
+.item {
+    padding: 20px 20px;
+    background-color: #ffffff;
+    border-radius: 1em;
+    margin: 20px 20px;
+}
+
+.icon-item {
+    background-color: #009DA4;
+    text-align: center;
+    padding: 30px 10px;
+    margin-bottom: 20px;
+    border-radius: 0.5em;
+    color: white;
+    font-size: 30px;
+}
+
+.btn-ps {
+    padding: 5px 40px;
+}
+
+.carouselTitle {
+    background-color: white;
+    padding: 10px 20px;
+    color: black;
+    border-radius: 1em;
+}
+
+footer {
+    padding-top: 20px;
+}
+
+@media (min-width: 576px) {
+    .img-banner {
+        position: absolute;
+        bottom: -80px;
+        right: 250px;
+        z-index: 0;
+        width: 500px;
+    }
+    .banner {
+        padding-top: 0px;
+        background-size: 900px;
+        background-position: 1300px 20px;
+    }
+    .banner h2 {
+        margin-top: 100px;
+        font-size: 48px;
+    }
+    .img-banner {
+        position: absolute;
+        bottom: 0px;
+        right: 300px;
+        z-index: 0;
+        width: 550px;
+    }
+}
